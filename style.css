@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: border;
+}
+
+.layout h1 {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.layout {
+    background: rgba(187, 187, 187, 0.21);
+    height: 73vh;
+    width: 37vw;
+    margin: 48px auto;
+    border: 2px solid black;
+    border-radius: 120px;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.operators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    text-align: center;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 12px;
+    width: 35px;
+    height: 32px;
+    margin: 12px;
+    display: inline;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #000;
+    color: white;
+}
+
+#back {
+    width: 99px;
+}
+
+.rows {
+    margin-left: 21px;
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn1 {
+    display: inline;
+    background: black;
+    color: white;
+    font-size: 19px;
+    width: 148px;
+    height: 43px;
+    border: 2px solid red;
+    border-radius: 100px;
+}
+
+.btn1:hover {
+    color: black;
+    background: white;
+}
+
+#output {
+    font-size: 20px;
+    border: 2px solid red;
+    margin: 50px 0;
+    background: rgb(255, 255, 255);
+    width: 28vw;
+    padding: 13px;
+    outline: none;
+    border-radius: 12px;
+    text-align: end;
+    font-weight: bold;
+    height: 12px;
+}
+

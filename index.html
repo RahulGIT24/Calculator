@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="layout">
+        <h1>Rahul's Calculator</h1>
+        <div class="display">
+          <input type="text" id="output" / placeholder="0">
+        </div>
+        <hr />
+        <div class="controls">
+          <div class="operators">
+            <button class="btn" id="clear" value="c" onclick="clearScreen()">
+              C
+            </button>
+            <button class="btn" id="add" value="+" onclick="display('+')">
+              +
+            </button>
+            <button class="btn" id="sub" value="-" onclick="display('-')">
+              -
+            </button>
+            <button class="btn" id="multi" value="*" onclick="display('*')">
+              X
+            </button>
+            <button class="btn" id="divide" value="/" onclick="display('/')">
+              ÷
+            </button>
+            <button class="btn" id="percent" value="%" onclick="display('%')">
+              %
+            </button>
+            <button class="btn" id="back" value="" onclick="back()">Backspace</button>
+          </div>
+          <div class="numeric">
+            <div class="rows">
+              <button class="btn1" id="seven" value="7" onclick="display('7')">
+                7
+              </button>
+              <button class="btn1" id="eight" value="8" onclick="display('8')">
+                8
+              </button>
+              <button class="btn1" id="nine" value="9" onclick="display('9')">
+                9
+              </button>
+            </div>
+            <div class="rows">
+              <button class="btn1" id="four" value="4" onclick="display('4')">
+                4
+              </button>
+              <button class="btn1" id="five" value="5" onclick="display('5')">
+                5
+              </button>
+              <button class="btn1" id="six" value="6" onclick="display('6')">
+                6
+              </button>
+            </div>
+            <div class="rows">
+              <button class="btn1" id="one" value="1" onclick="display('1')">
+                1
+              </button>
+              <button class="btn1" id="two" value="2" onclick="display('2')">
+                2
+              </button>
+              <button class="btn1" id="three" value="3" onclick="display('3')">
+                3
+              </button>
+            </div>
+            <div class="rows">
+              <button class="btn1" id="dot" value="." onclick="display('.')">
+                .
+              </button>
+              <button class="btn1" id="zero" value="0" onclick="display('0')">
+                0
+              </button>
+              <button class="btn1" id="equal" value="=" onclick="solveQuery()">
+                =
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
